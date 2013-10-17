@@ -1,7 +1,5 @@
-refreshdenver
+Refresh Denver - refreshdenver.org
 =============
-
-Refresh Denver
 
 Developed using Middleman, Bourbon, Neat, and Bitters.
 
