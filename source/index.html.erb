@@ -3,10 +3,10 @@
 		<a href="#" id="logo"><em>refresh</em> / denver</a>
 		<nav id="main-nav">
 			<ul>
-				<li><a href="#next-event">Next Event</a></li>
-				<li><a href="#what-is-refresh">What is Refresh</a></li>
-				<li><a href="#upcoming">Upcoming Events</a></li>
-				<li><a href="#our-sponsors">Our Sponsors</a></li>
+				<li><a class="scroll" href="#next-event">Next Event</a></li>
+				<li><a class="scroll" href="#what-is-refresh">What is Refresh</a></li>
+				<li><a class="scroll" href="#upcoming-events">Upcoming Events</a></li>
+				<li><a class="scroll" href="#our-sponsors">Our Sponsors</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -16,8 +16,8 @@
 	<section id="banner" class="row">
 		<h1>We're A Community of Web Professionals</h1>
 		<h2>bringing together the best and brightest web creatives in Denver</h2>
-		<a href="#" class="btn" id="speaker">I want to be a speaker</a>
-		<a href="#" class="btn" id="member">I want to be a member</a>
+		<a href="mailto:talks@refreshdenver.org?subject=I would love to speak at Refresh Denver" class="btn" id="speaker">I want to be a speaker</a>
+		<a href="http://www.meetup.com/refreshdenver/" class="btn" id="member">I want to be a member</a>
 	</section>
 
 	<section id="next-event" class="row">
@@ -27,30 +27,35 @@
 		<section id="ticket">
 			<header>
 				<strong>Main Event</strong>
-				<h4>Designing for mobile interfaces</h4>
+				<h4>
+					<a href="http://www.meetup.com/refreshdenver/events/144445142/">
+						Jay Ferracane, Creative Director - AngryBovine
+					</a>
+				</h4>
 			</header>
 			<section>
-				<div id="cost">
+				<div>
 					<strong>Cost</strong>
-					<em>$10.00</em>
+					<em>Free</em>
 				</div>
-				<div id="date">
+				<div>
 					<strong>Date</strong>
-					<em>Dec 22, 2013</em>
+					<em>Nov 13, 2013</em>
 				</div>
-				<div id="time">
+				<div>
 					<strong>Time</strong>
 					<em>7:00pm</em>
 				</div>
 			</section>
 			<footer>
 				<div id="location">
-					<i class="icon-map-marker"></i> Galvanize
+					<i class="icon-map-marker"></i>
+					<a href="http://goo.gl/JE51j9">Stoney's Full Steam Tavern</a>
 				</div>
 				<span class="note">Limited Seats Available</span>
 		</section>
 
-		<a href="#" class="btn" id="register">Register for this event</a>
+		<a href="http://www.meetup.com/refreshdenver/events/144445142/" class="btn" id="register">Register for this event</a>
 	</section>
 
 	<div class="circle" id="one"></div>
@@ -65,7 +70,7 @@
 			<hr />
 		</header>
 		<section>
-			<p>Refresh Denver is a community of designers, developers, and other internet professionals working to refresh the creative, technical, and professional culture of New Media endeavors in the Denver, CO area.</p>
+			<p>Refresh Denver is a community of designers, developers, and other internet professionals working to refresh the creative, technical, and professional culture of their trades in the Denver, CO area.</p>
 			<p>Our goal is simple: bring together the best and brightest new media professionals in the Denver metro area so that we may learn from one another. Our industry is too rich for any one person to “know it all.” That’s where we come in.</p>
 		</section>
 	</section>
@@ -78,57 +83,57 @@
 		<section>
 			<article>
 				<div class="event-image">
-					<img src="http://placekitten.com/g/300/300" />
+					<%= image_tag "events/joshtilton.jpg" %>
 				</div>
 				<section>
-					<h4>iOS 7 Changes Your Mom...</h4>
+					<h4>Josh Tilton, UI/UX Designer at SendGrid</h4>
 					<span class="location">
 						<i class="icon-map-marker"></i>
 						Galvanize
 					</span>
-					<p>This event will focus on the changes that Apple made with iOS7 and how you can adapt your designs to fit.</p>
+					<p>Josh will be presenting about life designing at one of the largest startups in the Denver region.</p>
+					<a href="http://www.meetup.com/refreshdenver/events/145920832/" class="btn">Register</a>
+				</section>
+			</article>
+			<article>
+				<div class="event-image">
+					<%= image_tag "events/anthony.jpg" %>
+				</div>
+				<section>
+					<h4>Anthony Navarre, Developer at thoughtbot</h4>
+					<span class="location">
+						<i class="icon-map-marker"></i>
+						Galvanize
+					</span>
+					<p>Anthony will be presenting about Patterns in Javascript and Development. Stay tuned for more details.</p>
+					<a href="http://www.meetup.com/refreshdenver/events/145921212/" class="btn">Register</a>
+				</section>
+			</article>
+			<article>
+				<div class="event-image">
+					<i class="icon-beer"></i>
+				</div>
+				<section>
+					<h4>Networking and Happy Hour; Speaker TBD</h4>
+					<span class="location">
+						<i class="icon-map-marker"></i>
+						Galvanize
+					</span>
+					<p>We're actively working on a speaker for this event. Networking and Happy Hour will be taking place.</p>
 					<a href="#" class="btn">Register</a>
 				</section>
 			</article>
 			<article>
 				<div class="event-image">
-					<img src="http://placekitten.com/g/300/300" />
+					<i class="icon-beer"></i>
 				</div>
 				<section>
-					<h4>iOS 7 Changes Your Mom...</h4>
+					<h4>Networking and Happy Hour; Speaker TBD</h4>
 					<span class="location">
 						<i class="icon-map-marker"></i>
 						Galvanize
 					</span>
-					<p>This event will focus on the changes that Apple made with iOS7 and how you can adapt your designs to fit.</p>
-					<a href="#" class="btn">Register</a>
-				</section>
-			</article>
-			<article>
-				<div class="event-image">
-					<img src="http://placekitten.com/g/300/300" />
-				</div>
-				<section>
-					<h4>iOS 7 Changes Your Mom...</h4>
-					<span class="location">
-						<i class="icon-map-marker"></i>
-						Galvanize
-					</span>
-					<p>This event will focus on the changes that Apple made with iOS7 and how you can adapt your designs to fit.</p>
-					<a href="#" class="btn">Register</a>
-				</section>
-			</article>
-			<article>
-				<div class="event-image">
-					<img src="http://placekitten.com/g/300/300" />
-				</div>
-				<section>
-					<h4>iOS 7 Changes Your Mom...</h4>
-					<span class="location">
-						<i class="icon-map-marker"></i>
-						Galvanize
-					</span>
-					<p>This event will focus on the changes that Apple made with iOS7 and how you can adapt your designs to fit.</p>
+					<p>We're actively working on a speaker for this event. Networking and Happy Hour will be taking place.</p>
 					<a href="#" class="btn">Register</a>
 				</section>
 			</article>
@@ -143,23 +148,21 @@
 			<hr />
 		</header>
 		<section>
-			<ul>
-				<li id="thoughtbot">
+			<ul id="sponsors">
+				<li>
 					<a href="http://thoughtbot.com">
 						<span>thoughtbot, inc.</span>
+						<div id="thoughtbot"></div>
 					</a>
 				</li>
-				<li id="teksystems">
+				<li>
 					<a href="http://teksystems.com">
 						<span>teksystems</span>
-					</a>
-				</li>
-				<li id="you?">
-					<a href="#">
+						<div id="teksystems"></div>
 					</a>
 				</li>
 			</ul>
-			<a href="#" class="btn">Want to sponsor Refresh Denver?</a>
+			<a href="mailto:sponsors@refreshdenver.org?subject=Interested in Sponsoring Refresh Denver" class="btn">Want to sponsor Refresh Denver?</a>
 		</section>
 
 		<h4>Thanks for checking us out. Hopefully we'll see you at the next meetup.</h4>
@@ -167,6 +170,8 @@
 </section>
 
 <footer id="main-footer">
-	<strong>Organized By</strong>
-	<a href="https://twitter.com/mikelockz">Michael Lockwitz</a>, <a href="https://twitter.com/andrewcohen">Andrew Cohen</a>, and <a href="http://twitter.com/coreyhaggard">Corey Haggard</a>
+	<div class="row">
+		<strong>Organized By</strong>
+		<a href="https://twitter.com/mikelockz">Michael Lockwitz</a>, <a href="https://twitter.com/andrewcohen">Andrew Cohen</a>, &amp; <a href="http://twitter.com/coreyhaggard">Corey Haggard</a>
+	</div>
 </footer>

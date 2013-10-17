@@ -3,13 +3,19 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Corey Haggard - Designer - @coreyhaggard
+    Andrew Cohen - Front-End Developer - @andrewcohen
 
 # THANKS
 
-    <name>
+    thoughtbot
+    teksystems
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    Middleman
+    Bourbon, Neat
+    Typekit, FontAwesome
+    

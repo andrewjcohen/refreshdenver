@@ -12,3 +12,8 @@ if (!(window.console && console.log)) {
 }
 
 // Place any jQuery/helper plugins in here.
+$('.scroll').on('click', function (e) {
+  var section = $(this).attr("href");
+  $('body').animate({scrollTop: $(section).offset().top}, 'slow');
+  return false;
+});
