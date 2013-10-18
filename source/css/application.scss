@@ -95,7 +95,6 @@ a.btn {
 
 			a {
 				@include transition(linear all 0.2s);
-				border-radius: em(3);
 				color: $refreshblue;
 				font-size: em(14);
 				font-weight: bold;
