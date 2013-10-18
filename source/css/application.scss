@@ -6,6 +6,11 @@
 
 .row {
 	@include outer-container;
+
+	@include media($desktop-med) {
+		padding-right: $gutter;
+		padding-left: $gutter;
+	}
 }
 
 a.btn {
@@ -30,6 +35,14 @@ a.btn {
 			@include linear-gradient(lighten($river-bed, 5%), lighten($oxford-blue, 5%));
 		}
 	}
+
+	@include media($desktop-small) {
+		font-size: em(16);
+	}
+
+	@include media($mobile) {
+		font-size: em(14);
+	}
 }
 
 #main-header {
@@ -38,6 +51,10 @@ a.btn {
 	height: em(150);
 	padding: em(33) 0 em(30);
 	text-align: center;
+
+	@include media($mobile) {
+		height: auto;
+	}
 }
 
 #logo {
@@ -84,6 +101,27 @@ a.btn {
 				font-weight: bold;
 				text-transform: uppercase;
 			}
+
+			@include media($tablet-med) {
+				margin: 0 em(5);
+
+				&:after {
+					display: none;
+				}
+			}
+
+			@include media($tablet-small) {
+				margin: 0 em(15);
+
+				&:nth-child(4) {
+					display: none;
+				}
+			}
+
+			@include media($mobile) {
+				display: block;
+				margin-bottom: $base-line-height / 3;
+			}
 		}
 	}
 }
@@ -129,6 +167,10 @@ a.btn {
 		&#three {
 			right: - em(75);
 		}
+
+		@include media($tablet-small) {
+			display: none;
+		}
 	}
 }
 
@@ -136,9 +178,26 @@ a.btn {
 	padding: em(200) 0 em(100);
 	text-align: center;
 
+	@include media($mobile) {
+		padding: em(100) 0 em(50);
+	}
+
+	@include media($desktop-med) {
+		padding-right: $gutter;
+		padding-left: $gutter;
+	}
+
 	h1 {
 		@include span-columns(12);
 		font-size: em(48);
+
+		@include media($tablet-med) {
+			font-size: em(36);
+		}
+
+		@include media($mobile) {
+			font-size: em(24);
+		}
 	}
 
 	h2 {
@@ -149,6 +208,14 @@ a.btn {
 		font-family: $sans-serif;
 		margin-bottom: em(100);
 		text-transform: none;
+
+		@include media($tablet-med) {
+			font-size: em(18);
+		}
+
+		@include media($mobile) {
+			font-size: em(14);
+		}
 	}
 
 	.btn {
@@ -161,6 +228,32 @@ a.btn {
 		&:last-child {
 			@include omega;
 		}
+
+		@include media($tablet-med) {
+			@include span-columns(4);
+
+			&#speaker {
+				@include shift(2);
+			}
+		}
+
+		@include media($tablet-small) {
+			@include span-columns(6);
+
+			&#speaker {
+				@include shift(0);
+			}
+		}
+
+		@include media($mobile) {
+			@include span-columns(8);
+			@include shift(2);
+
+			&#speaker {
+				@include shift(2);
+				margin-bottom: $base-line-height;
+			}
+		}
 	}
 }
 
@@ -170,9 +263,17 @@ a.btn {
 	position: relative;
 	z-index: 100;
 
+	@include media($mobile) {
+		padding: em(50) $gutter;
+	}
+
 	h3 {
 		@include span-columns(12);
 		font-size: em(36);
+
+		@include media($mobile) {
+			font-size: em(24);
+		}
 	}
 
 	em#subheader {
@@ -184,35 +285,71 @@ a.btn {
 		font-family: $sans-serif;
 		margin-bottom: em(75);
 		text-transform: none;
+
+		@include media($mobile) {
+			font-size: em(14);
+			margin-bottom: em(50);
+		}
 	}
 
 	.btn {
 		@include span-columns(3);
 		@include shift(4.5);
+
+		@include media($tablet-med) {
+			@include span-columns(4);
+			@include shift(4);
+		}
+
+		@include media($tablet-small) {
+			@include span-columns(6);	
+			@include shift(3);
+		}
+
+		@include media($mobile) {
+			@include span-columns(8);	
+			@include shift(2);
+		}
 	}
 }
 
 #ticket {
-	@include span-columns(7);
-	@include shift(2.5);
 	@include retina-image('ticket', 524px 202px, $asset-pipeline: true);
 	background-position: center top;
 	background-repeat: no-repeat;
+	clear: both;
 	height: em(224);
 	text-align: left;
-	margin-bottom: em(75);
+	margin: 0 auto em(75);
+	width: 530px;
+
+	@include media($mobile) {
+		background: none;
+		margin-bottom: em(0);
+		width: 100%;
+	}
 
 	header,
 	section,
 	footer {
-		margin-left: em(140);
-		width: em(405);
+		margin-left: 95px;
+		width: 415px;
+
+		@include media($mobile) {
+			margin-left: 0;
+			width: 100%;
+		}
 	}
 
 	strong{
 		color: rgba(0,0,0,0.5);
 		font-size: em(12);
 		text-transform: uppercase;
+
+		@include media($mobile) {
+			font-size: em(12);
+			color: $white;
+		}
 	}
 
 	header {
@@ -220,7 +357,6 @@ a.btn {
 		margin-bottom: $base-line-height;
 
 		h4 {
-			color: $refreshblue;
 			font-size: em(18);
 			font-family: $sans-serif;
 			font-weight: normal;
@@ -229,6 +365,22 @@ a.btn {
 
 			a {
 				color: $refreshblue;
+			}
+		}
+
+		@include media($tablet-small) {
+			h4 {
+				font-size: em(16);
+			}
+		}
+
+		@include media($mobile) {
+			h4 {
+				font-size: em(14);
+
+				a {
+					color: $white;
+				}
 			}
 		}
 	}
@@ -255,6 +407,14 @@ a.btn {
 
 		div:nth-child(3) {
 			@include span-columns(1 of 5);
+		}
+		
+		@include media($mobile) {
+			em {
+				color: $white;
+				font-size: em(13);
+				line-height: 0.9em;
+			}
 		}
 	}
 
@@ -288,11 +448,30 @@ a.btn {
 			font-size: em(12);
 			float: right;
 		}
+
+		@include media($mobile) {
+			border-color: rgba(255,255,255,0.5);
+			padding-top: $base-line-height / 3;
+
+			#location {
+				i {
+					color: $prim;
+				}
+				a {
+					font-size: em(14);
+					color: $prim;
+				}
+			}
+			.note {
+				display: none;
+			}
+		}
 	}
 }
 
 #middle {
 	background-color: $prim;
+
 	header {
 		height: em(40);
 		margin-bottom: em(100);
@@ -318,124 +497,243 @@ a.btn {
 			position: relative;
 			z-index: 10;
 		}
+
+		@include media($mobile) {
+			margin-bottom: em(50);
+
+			hr {
+				top: -44px;
+			}
+
+			h3 {
+				font-size: em(24);
+			}
+		}
+	}
+}
+
+#what-is-refresh {
+	padding-top: em(100);
+
+	section {
+		@include columns(2 $gutter);
+		margin-bottom: em(100);
 	}
 
-	#what-is-refresh {
-		padding-top: em(100);
+	p {
+		font-size: em(18);
+		line-height: 1.7em;
+		margin-bottom: 0;
+	}
+
+	@include media($mobile) {
+		padding-top: em(50);
 
 		section {
-			@include columns(2 $gutter);
-			margin-bottom: em(100);
+			@include columns(1);
+			margin-bottom: $base-line-height;
 		}
 
 		p {
-			font-size: em(18);
-			line-height: 1.7em;
-			margin-bottom: 0;
+			font-size: em(14);
+			line-height: 1.5em;
+			margin-bottom: $base-line-height;
+		}
+	}
+
+	footer {
+		@include span-columns(6);
+		@include shift(3);
+		text-align: center;
+
+		h3 {
+			color: $refreshblue;
+			font-family: $sans-serif;
+			font-size: em(21);
+			font-weight: normal;
+			text-transform: none;
+			margin-bottom: $base-line-height;
 		}
 
-		footer {
-			@include span-columns(6);
-			@include shift(3);
-			text-align: center;
+		a {
+			@include span-columns(3 of 6);
+			font-size: em(14);
 
-			h3 {
-				color: $refreshblue;
-				font-family: $sans-serif;
-				font-size: em(21);
-				font-weight: normal;
-				text-transform: none;
-				margin-bottom: $base-line-height;
+			i {
+				font-size: em(24);
+				position: relative;
+				vertical-align: -3px;
+				margin-right: 6px;
 			}
+		}
+
+		@include media($tablet-small) {
+			@include span-columns(8);
+			@include shift(2);
 
 			a {
-				@include span-columns(3 of 6);
-				font-size: em(14);
+				@include span-columns(4 of 8);
+			}
+		}
 
-				i {
-					font-size: em(24);
-					position: relative;
-					vertical-align: -3px;
-					margin-right: 6px;
+		@include media($tablet-small) {
+			@include span-columns(12);
+			@include shift(0);
+
+			a {
+				@include span-columns(6 of 12);
+			}
+		}
+
+		@include media($mobile) {
+			a {
+				@include span-columns(8 of 12);
+				@include shift(2);
+
+				&:first-child {
+					margin-bottom: $base-line-height;
 				}
 			}
 		}
 	}
+}
 
-	#upcoming-events {
-		padding: em(100) 0;
+#upcoming-events {
+	padding: em(100) 0;
 
-		article {
-			@include span-columns(3 of 12);
-			background-color: $white;
-			border: solid 1px $alto;
+	@include media($mobile) {
+		padding: em(50) 0;
+	}
 
-			&:nth-child(4) {
+	@include media($desktop-med) {
+		padding-right: $gutter;
+		padding-left: $gutter;
+	}
+
+	article {
+		@include span-columns(3 of 12);
+		background-color: $white;
+		border: solid 1px $alto;
+
+		&:nth-child(4) {
+			@include omega;
+		}
+
+		div.event-image {
+			height: em(180);
+			overflow: hidden;
+			text-align: center;
+
+			img {
+				height: 100%;
+				width: 100%;
+			}
+
+			i.icon-beer {
+				font-size: em(96);
+				line-height: 180px;
+				color: rgba(0,0,0,0.1);
+			}
+		}
+
+		section {
+			@include clearfix;
+			min-height: em(295);
+			padding: $base-line-height;
+
+			@include media($tablet-med) {
+				min-height: em(310);
+			}
+
+			@include media($tablet-small) {
+				min-height: em(295);
+			}
+		}
+
+		h4 {
+			color: $refreshblue;
+			font-weight: normal;
+			font-size: em(16);
+			font-family: $sans-serif;
+			line-height: 1.5em;
+			margin-bottom: $base-line-height / 2;
+			text-transform: none;
+
+			@include media($tablet-med) {
+				font-size: em(14);
+			}
+		}
+
+		.location {
+			color: $light-gray;
+			display: block;
+			font-size: em(13);
+			margin-bottom: $base-line-height / 2;
+
+			i {
+				font-size: em(24);
+				position: relative;
+				vertical-align: -2px;
+				margin-right: 4px;
+			}
+
+			a {
+				color: $light-gray;
+			}
+		}
+
+		p {
+			font-size: em(14);
+			margin-bottom: $base-line-height;
+		}
+
+		.btn {
+			@include span-columns(2 of 3);
+			@include shift(.5);
+			font-size: em(14);
+			height: em(40);
+			line-height: em(40);
+		}
+
+		@include media($desktop-small) {
+			@include span-columns(4 of 12);
+
+			&:nth-child(3) {
 				@include omega;
 			}
 
-			div.event-image {
-				height: em(180);
-				overflow: hidden;
-				text-align: center;
-
-				img {
-					height: 100%;
-					width: 100%;
-				}
-
-				i.icon-beer {
-					font-size: em(96);
-					line-height: 180px;
-					color: rgba(0,0,0,0.1);
-				}
+			&:nth-child(4) {
+				display: none;
 			}
+		}
+
+		@include media($tablet-small) {
+			@include span-columns(6 of 12);
+			margin-bottom: $base-line-height;
+
+			&:nth-child(2n+2) {
+				@include omega;
+			}
+
+			&:nth-child(3) {
+				display: inline-block;
+			}
+
+			&:nth-child(4) {
+				float: right;
+				display: inline-block;
+			}
+		}
+
+		@include media($mobile) {
+			@include span-columns(12 of 12);
 
 			section {
-				@include clearfix;
-				min-height: em(295);
-				padding: $base-line-height;
+				min-height: 0;
 			}
 
-			h4 {
-				color: $refreshblue;
-				font-weight: normal;
-				font-size: em(16);
-				font-family: $sans-serif;
-				line-height: 1.5em;
-				margin-bottom: $base-line-height / 2;
-				text-transform: none;
-			}
-
-			.location {
-				color: $light-gray;
-				display: block;
-				font-size: em(13);
-				margin-bottom: $base-line-height / 2;
-
-				i {
-					font-size: em(24);
-					position: relative;
-					vertical-align: -2px;
-					margin-right: 4px;
-				}
-
-				a {
-					color: $light-gray;
-				}
-			}
-
-			p {
-				font-size: em(14);
-				margin-bottom: $base-line-height;
-			}
-
-			.btn {
-				@include span-columns(2 of 3);
-				@include shift(.5);
-				font-size: em(14);
-				height: em(40);
-				line-height: em(40);
+			&:last-child {
+				margin-bottom: 0;
 			}
 		}
 	}
@@ -444,6 +742,10 @@ a.btn {
 #our-sponsors {
 	background-color: $refreshblue;
 	padding: em(100) 0;
+
+	@include media($mobile) {
+		padding: em(50) 0;
+	}
 
 	header {
 		height: em(40);
@@ -470,12 +772,41 @@ a.btn {
 			position: relative;
 			z-index: 10;
 		}
+
+		@include media($mobile) {
+			margin-bottom: em(50);
+
+			hr {
+				top: -44px;
+			}
+
+			h3 {
+				font-size: em(24);
+			}
+		}
+
 	}
 
 	.btn {
 		@include span-columns(4);
 		@include shift(4);
 		margin-bottom: em(100);
+
+		@include media($tablet-med) {
+			@include span-columns(6);
+			@include shift(3);
+		}
+
+		@include media($tablet-small) {
+			@include span-columns(8);
+			@include shift(2);
+		}
+
+		@include media($mobile) {
+			@include span-columns(12);
+			@include shift(0);
+			margin-bottom: em(50);
+		}
 	}
 
 	h4 {
@@ -486,12 +817,29 @@ a.btn {
 		font-weight: normal;
 		text-transform: none;
 		text-align: center;
+
+		@include media($tablet-med) {
+			font-size: em(18);
+		}
+
+		@include media($tablet-small) {
+			font-size: em(16);
+		}
+
+		@include media($mobile) {
+			font-size: em(14);
+		}
 	}
 }
 
 ul#sponsors {
 	@include span-columns(12);
 	margin-bottom: em(100);
+
+	@include media($mobile) {
+		margin-bottom: em(50);
+	}
+
 	li {
 		@include span-columns(4 of 12);
 		background-color: rgba(0,0,0,0.4);
@@ -499,8 +847,9 @@ ul#sponsors {
 		text-align: center;
 		position: relative;
 
-		&:first-child {
-			@include shift(2);
+		@include media($mobile) {
+			@include span-columns(12 of 12);
+			margin-bottom: $base-line-height;
 		}
 
 		&:nth-child(3n+3) {
@@ -537,14 +886,48 @@ ul#sponsors {
 			position: absolute;
 			top: 50%;
 			width: em(180);
+
 		}
 
 		#thoughtbot {
 			@include retina-image('logo_thoughtbot', 175px 175px, $asset-pipeline: true);
+
+			@include media($tablet-med) {
+				background-size: 100%;
+				margin-left: - em(60);
+				width: em(120);
+			}
 		}
 
 		#teksystems {
 			@include retina-image('logo_teksystems', 175px 175px, $asset-pipeline: true);
+
+			@include media($tablet-med) {
+				background-size: 100%;
+				margin-left: - em(60);
+				width: em(120);
+			}
+		}
+
+		#sendgrid {
+			@include retina-image('logo_sendgrid', 262px 67px, $asset-pipeline: true);
+			background-size: 100%;
+			height: em(67);
+			margin-left: - em(131);
+			margin-top: - em(33.5);
+			width: em(262);
+
+			@include media($desktop-small) {
+				background-size: 100%;
+				margin-left: - em(90);
+				width: em(180);
+			}
+
+			@include media($tablet-med) {
+				background-size: 100%;
+				margin-left: - em(70);
+				width: em(140);
+			}
 		}
 
 		&:hover {
@@ -566,5 +949,9 @@ ul#sponsors {
 	strong {
 		text-transform: uppercase;
 		display: block;
+	}
+
+	@include media($mobile) {
+		font-size: em(12);
 	}
 }
