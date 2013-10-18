@@ -61,7 +61,8 @@ a:link, a:visited {
   @include transition(color 0.1s linear);
 
   &:hover {
-    color: $hover-link-color;
+    border-bottom: dotted 1px rgba(0,0,0,0.5);
+    color: $hover-link-color;   
   }
 
   &:active, &:focus {

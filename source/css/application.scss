@@ -18,6 +18,7 @@ a.btn {
 	text-align: center;
 
 	&:hover {
+		border-bottom: none;
 		color: $white;
 		@include linear-gradient(lighten($terracotta, 5%), lighten($mojo, 5%));
 	}
@@ -82,10 +83,6 @@ a.btn {
 				font-size: em(14);
 				font-weight: bold;
 				text-transform: uppercase;
-
-				&:hover {
-					border-bottom: dotted 1px rgba(0,0,0,0.5);
-				}
 			}
 		}
 	}
@@ -232,10 +229,6 @@ a.btn {
 
 			a {
 				color: $refreshblue;
-
-				&:hover {
-					border-bottom: dotted 1px rgba(0,0,0,0.5);
-				}
 			}
 		}
 	}
@@ -288,10 +281,6 @@ a.btn {
 			a {
 				font-size: em(14);
 				color: rgba(0,0,0,0.5);
-
-				&:hover {
-					border-bottom: dotted 1px rgba(0,0,0,0.5);
-				}
 			}
 		}
 
@@ -430,6 +419,10 @@ a.btn {
 					vertical-align: -2px;
 					margin-right: 4px;
 				}
+
+				a {
+					color: $light-gray;
+				}
 			}
 
 			p {
@@ -517,6 +510,10 @@ ul#sponsors {
 		a { 
 			height: em(220);
 			display: block;
+
+			&:hover {
+				border-bottom: none;
+			}
 		}
 
 		span {
