@@ -126,8 +126,7 @@ a.btn {
 }
 
 #top {
-	background: url('../img/bg-banner.jpg') no-repeat top center;
-	background-color: $refreshblue;
+	background: url('../img/bg-banner.jpg') no-repeat top center $refreshblue;
 	background-size: 100%;
 	color: $white;
 	overflow: hidden;
