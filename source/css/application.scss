@@ -16,7 +16,6 @@ a.btn {
 	line-height: em(50);
 	font-size: em(18);
 	text-align: center;
-	text-decoration: none;
 
 	&:hover {
 		color: $white;
@@ -46,7 +45,6 @@ a.btn {
 	font-family: $header-font-family;
 	font-size: em(48);
 	margin-bottom: 30px;
-	text-decoration: none;
 	letter-spacing: -0.05em;
 
 	em {
@@ -84,7 +82,6 @@ a.btn {
 				font-size: em(14);
 				font-weight: bold;
 				text-transform: uppercase;
-				text-decoration: none;
 
 				&:hover {
 					border-bottom: dotted 1px rgba(0,0,0,0.5);
@@ -235,7 +232,6 @@ a.btn {
 
 			a {
 				color: $refreshblue;
-				text-decoration: none;
 
 				&:hover {
 					border-bottom: dotted 1px rgba(0,0,0,0.5);
@@ -292,7 +288,7 @@ a.btn {
 			a {
 				font-size: em(14);
 				color: rgba(0,0,0,0.5);
-				text-decoration: none;
+
 				&:hover {
 					border-bottom: dotted 1px rgba(0,0,0,0.5);
 				}
@@ -365,7 +361,6 @@ a.btn {
 
 			a {
 				@include span-columns(3 of 6);
-				text-decoration: none;
 				font-size: em(14);
 
 				i {
@@ -522,7 +517,6 @@ ul#sponsors {
 		a { 
 			height: em(220);
 			display: block;
-			text-decoration: none;
 		}
 
 		span {
@@ -564,6 +558,16 @@ ul#sponsors {
 				opacity: 1.0;
 			}
 		}
+	}
+}
 
+#main-footer {
+	padding: em(100) 0;
+	font-size: em(14);
+	text-align: center;
+
+	strong {
+		text-transform: uppercase;
+		display: block;
 	}
 }
