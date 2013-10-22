@@ -48,8 +48,7 @@ a.btn {
 #main-header {
 	background-color: $white;
 	border-top: solid 3px $refreshorange;
-	height: em(150);
-	padding: em(33) 0 em(30);
+	padding: em(30) 0;
 	text-align: center;
 
 	@include media($mobile) {
@@ -58,23 +57,14 @@ a.btn {
 }
 
 #logo {
-	color: $refreshblue;
-	display: inline-block;
-	font-family: $header-font-family;
-	font-size: em(48);
-	margin-bottom: 30px;
-	letter-spacing: -0.05em;
-
-	em {
-		color: $refreshorange;
-		font-style: normal;
-	}
-
-	span {
-	  display: inline-block;
-		padding: 0 em(2);
-
-	}
+	@include retina-image('logo', 176px 85px, $asset-pipeline: true);
+	background-size: 100%;
+	display: block;
+	height: 85px;
+	margin: 0 auto em(20);
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 176px;
 }
 
 #main-nav {
