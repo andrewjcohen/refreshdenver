@@ -844,6 +844,15 @@ ul#sponsors {
 			@include omega;
 		}
 
+		&:nth-child(4) {
+			@include shift(2);
+		}
+
+		&:nth-child(4),
+		&:nth-child(5) {
+			margin-top: $base-line-height;
+		}
+
 		a { 
 			height: em(220);
 			display: block;
@@ -903,6 +912,48 @@ ul#sponsors {
 			height: em(67);
 			margin-left: - em(131);
 			margin-top: - em(33.5);
+			width: em(262);
+
+			@include media($desktop-small) {
+				background-size: 100%;
+				margin-left: - em(90);
+				width: em(180);
+			}
+
+			@include media($tablet-med) {
+				background-size: 100%;
+				margin-left: - em(70);
+				width: em(140);
+			}
+		}
+
+		#galvanize {
+			@include retina-image('logo_galvanize', 262px 67px, $asset-pipeline: true);
+			background-size: 100%;
+			height: em(62);
+			margin-left: - em(130.5);
+			margin-top: - em(31);
+			width: em(261);
+
+			@include media($desktop-small) {
+				background-size: 100%;
+				margin-left: - em(90);
+				width: em(180);
+			}
+
+			@include media($tablet-med) {
+				background-size: 100%;
+				margin-left: - em(70);
+				width: em(140);
+			}
+		}
+
+		#zenman {
+			@include retina-image('logo_zenman', 262px 67px, $asset-pipeline: true);
+			background-size: 100%;
+			height: em(36);
+			margin-left: - em(131);
+			margin-top: - em(18);
 			width: em(262);
 
 			@include media($desktop-small) {
