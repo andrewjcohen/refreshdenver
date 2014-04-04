@@ -27,7 +27,7 @@ a.btn {
 		color: $white;
 		@include linear-gradient(lighten($terracotta, 5%), lighten($mojo, 5%));
 	}
-	
+
 	&.blue {
 		@include linear-gradient($river-bed, $oxford-blue);
 
@@ -290,12 +290,12 @@ a.btn {
 		}
 
 		@include media($tablet-small) {
-			@include span-columns(6);	
+			@include span-columns(6);
 			@include shift(3);
 		}
 
 		@include media($mobile) {
-			@include span-columns(8);	
+			@include span-columns(8);
 			@include shift(2);
 		}
 	}
@@ -396,7 +396,7 @@ a.btn {
 		div:nth-child(3) {
 			@include span-columns(1 of 5);
 		}
-		
+
 		@include media($mobile) {
 			em {
 				color: $white;
@@ -418,7 +418,7 @@ a.btn {
 			float: left;
 			position: relative;
 			top: -2px;
-			
+
 			i {
 				font-size: em(24);
 				position: relative;
@@ -530,8 +530,8 @@ a.btn {
 	}
 
 	footer {
-		@include span-columns(6);
-		@include shift(3);
+		@include span-columns(3);
+		@include shift(4.5);
 		text-align: center;
 
 		h3 {
@@ -544,8 +544,7 @@ a.btn {
 		}
 
 		a {
-			@include span-columns(3 of 6);
-			font-size: em(14);
+			@include span-columns(3 of 3);
 
 			i {
 				font-size: em(24);
@@ -853,7 +852,7 @@ ul#sponsors {
 			margin-top: $base-line-height;
 		}
 
-		a { 
+		a {
 			height: em(220);
 			display: block;
 
@@ -928,7 +927,7 @@ ul#sponsors {
 		}
 
 		#galvanize {
-			@include retina-image('logo_galvanize', 262px 67px, $asset-pipeline: true);
+			@include retina-image('logo_galvanize', 262px 62px, $asset-pipeline: true);
 			background-size: 100%;
 			height: em(62);
 			margin-left: - em(130.5);
@@ -949,12 +948,33 @@ ul#sponsors {
 		}
 
 		#zenman {
-			@include retina-image('logo_zenman', 262px 67px, $asset-pipeline: true);
+			@include retina-image('logo_zenman', 262px 36px, $asset-pipeline: true);
 			background-size: 100%;
 			height: em(36);
 			margin-left: - em(131);
 			margin-top: - em(18);
 			width: em(262);
+
+			@include media($desktop-small) {
+				background-size: 100%;
+				margin-left: - em(90);
+				width: em(180);
+			}
+
+			@include media($tablet-med) {
+				background-size: 100%;
+				margin-left: - em(70);
+				width: em(140);
+			}
+		}
+
+		#hm {
+			@include retina-image('logo_hm', 224px 122px, $asset-pipeline: true);
+			background-size: 100%;
+			height: em(122);
+			margin-left: - em(112);
+			margin-top: - em(56);
+			width: em(224);
 
 			@include media($desktop-small) {
 				background-size: 100%;
