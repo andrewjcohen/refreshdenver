@@ -530,8 +530,8 @@ a.btn {
 	}
 
 	footer {
-		@include span-columns(3);
-		@include shift(4.5);
+		@include span-columns(6);
+		@include shift(3);
 		text-align: center;
 
 		h3 {
@@ -544,12 +544,11 @@ a.btn {
 		}
 
 		a {
-			@include span-columns(3 of 3);
+			@include span-columns(3 of 6);
+			@include omega(2n);
 
 			i {
-				font-size: em(24);
 				position: relative;
-				vertical-align: -3px;
 				margin-right: 6px;
 			}
 		}
