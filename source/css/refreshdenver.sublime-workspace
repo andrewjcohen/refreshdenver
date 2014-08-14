@@ -1,0 +1,1168 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nth-",
+				"nth-last-of-type"
+			],
+			[
+				"last",
+				"nth-last-of-type(  (pseudo-class)"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"MainA",
+				"MainAsideCtrl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/refreshdenver/source/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 6824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application.scss",
+			"settings":
+			{
+				"buffer_size": 15967,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 169.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"pacak	",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublime",
+				"SublimeREPL: Shell"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instg",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"INstall pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/views/_profile.css.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/tmp/cache/assets/development/sass/864f78137140de2564790c892cc24eab0de71186/profile.css.scssc",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/pages/profile.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/Procfile",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/config/locales/en.yml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/.bower-cache/471ab362c581a65daae16e8b2e3497b4/3.1.5/dist/masonry.pkgd.min.js",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/.bower-cache/471ab362c581a65daae16e8b2e3497b4/3.1.5/dist/masonry.pkgd.js",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/vendor/assets/bower_components/masonry/masonry.js",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/.bower-registry/bower.herokuapp.com/lookup/masonry_3f6d9",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/.bower-cache/471ab362c581a65daae16e8b2e3497b4/3.1.5/masonry.js",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/spec/features/consumer/makes_agent_inquiry_spec.rb",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/javascripts/application.js",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/config/application.rb",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/layouts/application.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/layouts/shared/_search_aside.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/extends/_aside-link.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/views/_search_aside.css.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/lib/social_bios_api/agent_search.rb",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/javascripts/ui/controllers/main_aside_ctrl.js.coffee",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/mixins/_button.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/bower.json",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/mixins/_tooltip_nohover.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/spec/javascripts/common/directives/brokerage_tooltip_spec.coffee",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/.env",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/config/environment.rb",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/views/_search_main.css.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/agents/show.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/lib/social_bios_api/search.rb",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/bin/setup",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/Gemfile",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/_grid-settings.scss",
+		"/Users/acohen/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/agents/_secondary_nav.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/agents/index.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/vendor/assets/bower_components/leaflet.markerclusterer/example/marker-clustering-zoomtoshowlayer.html",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/vendor/assets/bower_components/leaflet.markerclusterer/example/marker-clustering-convexhull.html",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/javascripts/search/directives/search_results_summary.js.coffee",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/views/_universal.css.scss",
+		"/Users/acohen/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/acohen/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/agents/qualification.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/agents/brokerage.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/views/_modals.css.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/pages/search.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/views/_comparison.css.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/agents/_timeline.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/extends/_picture.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/extends/_base.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/bookmark_form.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/comparisons/new.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/tmp/cache/assets/development/sass/864f78137140de2564790c892cc24eab0de71186/universal.css.scssc",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/imandrewcohen/source/layouts/layout.erb",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/imandrewcohen/source/index.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/imandrewcohen/source/assets/css/_homepage.css.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_homepage.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_universal.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_player.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_system-landing.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_header.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/assets/stylesheets/shared_layouts/_aside_global.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/assets/stylesheets/application/_index.scss",
+		"/Users/acohen/Downloads/mailman-3.0.0b4/README.rst",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/views/layouts/blog.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/views/cities/blog_posts.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/mixins/_nub.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/mixins/_tooltip.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/application.css.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/assets/stylesheets/cities/index.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/views/blog_posts/show.html.haml",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/assets/stylesheets/application/_footer.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/assets/stylesheets/shared_layouts/_article_basic_content.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/app/assets/stylesheets/application/_mixins.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/.gitignore",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/c40/.env",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/store_listings/kata.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_modal.css.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/bitters/_forms.scss",
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/views/templates/agents/certification.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_video-wrapper.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/application/_navbar.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/extends/_btn-small-buy.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/extends/_card-select.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_payments.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/layouts/admin.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/admin/_navbar.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/_forms.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/extends/_btn-submit.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/extends/_btn-green.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_admin.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/extends/_tab-navigation.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/player_system_show.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/player_index.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_footer.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/images/small-creditcards@2x.png",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/animation_player.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/_grid-settings.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_search-results.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/systems/show.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/difficulty_levels/show.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/javascripts/myfonts.js",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/systems/index.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/layouts/application.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/application/_footer.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/controllers/player_controller.rb",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/animations/_flip.css.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/animations/_animations.css.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/animations/_pulse.css.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/extends/_base.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/javascripts/directives/animation_playlist.js.coffee",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/store_listings/technique_pack.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/_typography.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_hero.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/buy_button.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/config/locales/en.yml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/extends/_button.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/_variables.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/views/templates/modal_title.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/javascripts/directives/modal_window.js.coffee",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_manage-cards.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/application.css.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/views/_footer.scs",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/mixins/_btn.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/models/animation.rb",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/stylesheets/bitters/mixins/_base.scss",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/locus-control/app/assets/javascripts/directives/playlist_item.js.coffee",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/imandrewcohen/source/nextbigsound.html.haml",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/imandrewcohen/.gitignore",
+		"/Users/acohen/Dropbox (Personal)/Work/thoughtbot/Development/imandrewcohen/Gemfile"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"<project>",
+			"",
+			"assets/stylesheets",
+			"<project>",
+			"assets/stylesheets",
+			"app/views",
+			"<project>",
+			"assets/stylesheets",
+			"<project>",
+			"",
+			"home.html.haml",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0",
+			"ask-a",
+			".qualifications",
+			"qualifications",
+			"sidebar-action-link",
+			"back",
+			"text-input",
+			"popover",
+			"closed a ",
+			"pin-info",
+			"brokerage-name",
+			"include omega",
+			"h2",
+			"h1",
+			"back",
+			"popover-list",
+			"activity",
+			"team",
+			"save-share",
+			"id=\"save-share\"",
+			"wrap",
+			"player-container",
+			".image-wrap",
+			"blog_post.teaser",
+			"leaflet-popup",
+			"blue-hover-block",
+			"li.post",
+			".global",
+			".post",
+			"global",
+			"from our blog",
+			"caption",
+			"blue-hover-block",
+			".global",
+			".basic-content",
+			"popover-list",
+			"popover",
+			"image",
+			"contact",
+			"navbar",
+			"selection",
+			"#61A46D",
+			"span",
+			"checkbox",
+			"admin-header",
+			"dashboard-content",
+			"overflow-y",
+			"scroll",
+			"border-bottom: dotted",
+			"video-content-area",
+			"#F4F4F4",
+			"column",
+			".carousel",
+			"carousel",
+			"font",
+			"video-content-area",
+			"loader",
+			"card-select",
+			"drop-indicator.png",
+			"playlist-control",
+			"system-hero",
+			"'buy-now'",
+			"button {",
+			"button",
+			"modal-footer",
+			"fa-times-circle",
+			"modal-header",
+			"modal-content",
+			"class='close'",
+			"span class=\"close\"",
+			"retina-image",
+			"#footer",
+			"id=\"main-hero\"",
+			"navbar",
+			"class=\"btn\"",
+			"@include btn",
+			"$sidebar-gray",
+			"header-content",
+			".row",
+			".brokerage\n          {{agent.brokerageName()}}\n          %span.popover-info\n            %section\n              %strong\n                {{agent.brokerageName()}}\n              .brokerage-picture\n                = image_tag 'http://placehold.it/100x100'\n              %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pharetra sem orci, non facilisis massa sodales et. Aliquam blandit vel felis vel convallis. Duis est sapien, tempor non ornare a, vulputate in nibh. Aenean lectus.\n              %ul\n                %li\n                  %i.fa.fa-phone-square\n                  555.555.5555\n                %li\n                  %i.fa.fa-globe\n                  %a{href:'#'} Statefarm.com\n                %li\n                  %i.fa.fa-map-marker\n                  123 Fake St, Denver CO 80212\n            %footer\n              %a{href:'#', class: 'btn-gray'} Search by Brokerage",
+			"about",
+			".badge",
+			"badge",
+			"$gray-color",
+			"system-select",
+			"select-system",
+			"class=\"select-system\"",
+			".dropdown-area",
+			"background-color: transparent",
+			"main-hero",
+			"$header-color",
+			"$hover-header-link",
+			"$brand-almostblack",
+			"application-wrapper",
+			"header {",
+			"selector-menu",
+			".group",
+			"card-info",
+			"card-icon",
+			"$base-sidebar-width",
+			"$sidebar-width",
+			"padding-bottom: 30px;",
+			"margin-bottom: 30px",
+			"stance",
+			"#333",
+			"#dddddd",
+			"#fff",
+			"#medium-gray",
+			"#999",
+			"#374245",
+			"$player-gray",
+			"@include transition (all 0.3s ease-in-out);",
+			"sidebar",
+			"dropdown-area",
+			"class=\"dropdown-area\"",
+			"#EEEEEE",
+			"$light-gray",
+			"@include card-select;",
+			"color: #999999;",
+			"@include white-title-bar",
+			"font-size: 15px",
+			"@include free-content-heading",
+			"@include tab-navigation",
+			"@include submit-button;",
+			"border-radius: 3px;",
+			"@include owned-button;",
+			"@include green-button;",
+			"@include small-buy-buttons"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sidebar-action",
+			"$btn-green",
+			"$superlight-gray",
+			"@include brand-btn",
+			"$sidebar-color",
+			".wrap",
+			"$sidebar-gray",
+			"$brand-darkgray",
+			"",
+			"$brand-darkgray",
+			"$base-sidebar-width",
+			"margin-bottom: $base-line-height;",
+			"$dark-gray",
+			"$light-gray",
+			"white",
+			"$medium-gray",
+			"$gray-color",
+			"@include transition (all 0.2s linear);",
+			"@extend %card-select;",
+			"color: $medium-gray;",
+			"    font-size: 15px;\nfont-size: 16px",
+			"@extend %tab-navigation;",
+			"@extend %btn-submit;",
+			"border-radius: $base-border-radius;",
+			"@extend %btn-owned;",
+			"@extend %btn-green;",
+			"",
+			"$light-gray",
+			"font-size: 21px;",
+			"color: white;",
+			"white",
+			".wrap",
+			"Save to Compare",
+			".main-aside",
+			"Certifications &amp; Designations:",
+			"z-index: $zindex-1;",
+			"z-index: $zindex-0",
+			"z-index: $zindex-1;",
+			"$border-gray-light",
+			".popover-others",
+			"%span.popover-info",
+			"popover-others",
+			"popover-info",
+			"popover-list",
+			"cert-popover-list",
+			"http://placehold.it/200x200",
+			"z1solutions.com",
+			"border-radius: $base-border-radius",
+			"border-radius: 4px",
+			"title:",
+			"href: '#'",
+			"{href: '#'}",
+			"../",
+			"alto",
+			"",
+			"mercury",
+			"\n	",
+			"min-width : $iPhone5-min-breakpoint",
+			"max-device-width : $iPhone5-max-breakpoint",
+			"min-device-width : $iPhone5-min-breakpoint",
+			"min-width : $iPhone5-min-breakpoint",
+			"max-width : $iPhone5-max-breakpoint",
+			"max-width : $iPhone-max-breakpoint",
+			"min-width : $iPhone-min-breakpoint",
+			"button",
+			".button",
+			"max-width: $iPhone5-max-breakpoint",
+			"min-width: $iPhone5-min-breakpoint",
+			"button",
+			"@media only screen \n  and (min-width : 560px) \n  and (max-width : 1136px) \n  and (-webkit-min-device-pixel-ratio: 2)",
+			"desktop-large",
+			"desktop-med",
+			"desktop-small",
+			"mobile",
+			"$silver-chalice",
+			"$athens-gray",
+			"$thoughtbot-red",
+			"'",
+			"value:",
+			"class:",
+			"id:",
+			"placeholder:",
+			"name:",
+			"type:",
+			"for:",
+			"$active",
+			"'",
+			"li.person.",
+			"  ",
+			" ",
+			".person-info",
+			"",
+			"%p ",
+			"%h4 ",
+			"%h4",
+			"",
+			"%h3 ",
+			"",
+			"%li."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/refreshdenver/source/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1264,
+								1264
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1142.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "application.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/refreshdenver.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"profile.css",
+				"app/assets/stylesheets/views/_profile.css.scss"
+			],
+			[
+				"masonry",
+				"app/assets/javascripts/profile/directives/masonry.js.coffee"
+			],
+			[
+				"aside",
+				"app/assets/stylesheets/bitters/extends/_aside-link.scss"
+			],
+			[
+				"button",
+				"app/assets/stylesheets/bitters/mixins/_button.scss"
+			],
+			[
+				"profile",
+				"app/assets/stylesheets/views/_profile.css.scss"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"search_aside",
+				"app/assets/stylesheets/views/_search_aside.css.scss"
+			],
+			[
+				"grid",
+				"app/assets/stylesheets/bitters/_grid-settings.scss"
+			],
+			[
+				"search_main",
+				"app/assets/stylesheets/views/_search_main.css.scss"
+			],
+			[
+				"variables",
+				"app/assets/stylesheets/bitters/_variables.scss"
+			],
+			[
+				"universal",
+				"app/assets/stylesheets/views/_universal.css.scss"
+			],
+			[
+				"aside-",
+				"app/assets/stylesheets/bitters/extends/_aside-link.scss"
+			],
+			[
+				"search_asi",
+				"app/assets/stylesheets/views/_search_aside.css.scss"
+			],
+			[
+				"modals",
+				"app/assets/stylesheets/views/_modals.css.scss"
+			],
+			[
+				"comparison",
+				"app/assets/stylesheets/views/_comparison.css.scss"
+			],
+			[
+				"compari",
+				"app/assets/stylesheets/views/_comparison.css.scss"
+			],
+			[
+				"system",
+				"app/assets/stylesheets/views/_system-landing.scss"
+			],
+			[
+				"univers",
+				"app/assets/stylesheets/views/_universal.scss"
+			],
+			[
+				"homepage",
+				"app/assets/stylesheets/views/_homepage.scss"
+			],
+			[
+				"form",
+				"app/assets/stylesheets/bitters/_forms.scss"
+			],
+			[
+				"profil",
+				"app/assets/stylesheets/views/_profile.css.scss"
+			],
+			[
+				"blog_posts",
+				"app/views/cities/blog_posts.html.haml"
+			],
+			[
+				"blog",
+				"app/views/layouts/blog.html.haml"
+			],
+			[
+				"nub",
+				"app/assets/stylesheets/bitters/mixins/_nub.scss"
+			],
+			[
+				"listing_marker.",
+				"app/assets/javascripts/profile/services/listing_marker.js.coffee"
+			],
+			[
+				"univer",
+				"app/assets/stylesheets/views/_universal.scss"
+			],
+			[
+				"footer",
+				"app/assets/stylesheets/views/_footer.scss"
+			],
+			[
+				"index",
+				"app/assets/stylesheets/cities/index.scss"
+			],
+			[
+				"variabl",
+				"app/assets/stylesheets/bitters/_variables.scss"
+			],
+			[
+				"variable",
+				"app/assets/stylesheets/bitters/_variables.scss"
+			],
+			[
+				"kata.html",
+				"app/views/templates/store_listings/kata.html.haml"
+			],
+			[
+				"free",
+				"app/views/templates/free_content.html.haml"
+			],
+			[
+				"forms",
+				"app/assets/stylesheets/bitters/_forms.scss"
+			],
+			[
+				"modal",
+				"app/assets/stylesheets/views/_modals.css.scss"
+			],
+			[
+				"_search",
+				"app/assets/stylesheets/views/_search-results.scss"
+			],
+			[
+				"header",
+				"app/assets/stylesheets/views/_header.scss"
+			],
+			[
+				"video-wrapper",
+				"app/assets/stylesheets/views/_video-wrapper.scss"
+			],
+			[
+				"_player",
+				"app/assets/stylesheets/views/_player.scss"
+			],
+			[
+				"small",
+				"app/assets/stylesheets/bitters/extends/_btn-small-buy.scss"
+			],
+			[
+				"card-sele",
+				"app/assets/stylesheets/bitters/extends/_card-select.scss"
+			],
+			[
+				"pay",
+				"app/assets/stylesheets/views/_payments.scss"
+			],
+			[
+				"_modal",
+				"app/assets/stylesheets/views/_modal.css.scss"
+			],
+			[
+				"submit",
+				"app/assets/stylesheets/bitters/extends/_btn-submit.scss"
+			],
+			[
+				"tab",
+				"app/assets/stylesheets/bitters/extends/_tab-navigation.scss"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"_admin",
+				"app/assets/stylesheets/views/_admin.scss"
+			],
+			[
+				"player",
+				"app/controllers/player_controller.rb"
+			],
+			[
+				"applicai",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"_play",
+				"app/assets/stylesheets/views/_player.scss"
+			],
+			[
+				"btn",
+				"app/assets/stylesheets/bitters/extends/_btn-green.scss"
+			],
+			[
+				"homep",
+				"app/assets/stylesheets/views/_homepage.scss"
+			],
+			[
+				"btn-buy",
+				"app/assets/stylesheets/bitters/extends/_btn-small-buy.scss"
+			],
+			[
+				"buy",
+				"app/assets/stylesheets/bitters/extends/_btn-small-buy.scss"
+			],
+			[
+				"green",
+				"app/assets/stylesheets/bitters/extends/_btn-green.scss"
+			],
+			[
+				"btn-smal",
+				"app/assets/stylesheets/bitters/extends/_btn-small-buy.scss"
+			],
+			[
+				"typography",
+				"app/assets/stylesheets/bitters/_typography.scss"
+			],
+			[
+				"btn-gr",
+				"app/assets/stylesheets/bitters/extends/_btn-green.scss"
+			],
+			[
+				"system-",
+				"app/assets/stylesheets/views/_system-landing.scss"
+			],
+			[
+				"universa",
+				"app/assets/stylesheets/views/_universal.scss"
+			],
+			[
+				"en.y",
+				"config/locales/en.yml"
+			],
+			[
+				"video",
+				"app/assets/stylesheets/views/_video-wrapper.scss"
+			],
+			[
+				"playlist_it",
+				"app/assets/javascripts/directives/playlist_item.js.coffee"
+			],
+			[
+				"_base",
+				"app/assets/stylesheets/bitters/mixins/_base.scss"
+			],
+			[
+				"models/animat",
+				"app/models/animation.rb"
+			],
+			[
+				"home",
+				"source/assets/css/_homepage.css.scss"
+			],
+			[
+				"main",
+				"source/assets/js/main.js"
+			],
+			[
+				"layout",
+				"source/layouts/layout.erb"
+			],
+			[
+				"sear_main",
+				"app/assets/stylesheets/views/_search_main.css.scss"
+			],
+			[
+				"typograph",
+				"app/assets/stylesheets/bitters/_typography.scss"
+			],
+			[
+				"kaya",
+				"app/assets/javascripts/services/kata_play_all.js.coffee"
+			],
+			[
+				"system-landing",
+				"app/assets/stylesheets/views/_system-landing.scss"
+			],
+			[
+				"payment",
+				"app/assets/stylesheets/views/_payments.scss"
+			],
+			[
+				"animation",
+				"app/views/templates/animation_player.html.haml"
+			],
+			[
+				"scene",
+				"app/assets/javascripts/services/scene.js.coffee"
+			],
+			[
+				"scene.ja",
+				"vendor/assets/components/angular-animate/angular-animate.min.js.map"
+			],
+			[
+				"rotation_pan_",
+				"app/assets/javascripts/directives/rotation_pan_buttons.js.coffee"
+			],
+			[
+				"animation_play",
+				"app/views/templates/animation_player.html.haml"
+			],
+			[
+				"universl",
+				"app/assets/stylesheets/views/_universal.css.scss"
+			],
+			[
+				"landing",
+				"app/assets/stylesheets/views/_landing.css.scss"
+			],
+			[
+				"_search_aside",
+				"app/assets/stylesheets/views/_search_aside.css.scss"
+			],
+			[
+				"search",
+				"tmp/cache/assets/development/sass/864f78137140de2564790c892cc24eab0de71186/search_main.css.scssc"
+			],
+			[
+				"applicaion",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"layout/appli",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"compar",
+				"app/views/pages/comparison.html.haml"
+			],
+			[
+				"combo",
+				"app/assets/stylesheets/bitters/mixins/_combobtn.scss"
+			],
+			[
+				"picture",
+				"app/assets/stylesheets/bitters/extends/_picture.scss"
+			],
+			[
+				"tool",
+				"app/assets/stylesheets/bitters/mixins/_tooltip.scss"
+			],
+			[
+				"aside-link",
+				"app/assets/stylesheets/bitters/extends/_aside-link.scss"
+			],
+			[
+				"grid-set",
+				"app/assets/stylesheets/bitters/_grid-settings.scss"
+			],
+			[
+				"_modals",
+				"app/assets/stylesheets/views/_modals.css.scss"
+			],
+			[
+				"_modals.",
+				"app/assets/stylesheets/views/_modals.css.scss"
+			],
+			[
+				"views/show",
+				"app/views/dashboards/show.html.haml"
+			],
+			[
+				"addcar",
+				"app/models/add_caregiver_form.rb"
+			],
+			[
+				"app.c",
+				"source/css/app.scss"
+			],
+			[
+				"css",
+				"source/css/normalize.css"
+			],
+			[
+				"layout.",
+				"source/layouts/layout.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
