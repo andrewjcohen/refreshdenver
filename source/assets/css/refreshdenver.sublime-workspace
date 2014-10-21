@@ -27,15 +27,18 @@
 			"file": "/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/refreshdenver/source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 6824,
+				"buffer_size": 6635,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": " @import 'normalize';\n@import 'bourbon/bourbon';\n@import 'neat/neat';\n@import 'bitters/base';\n@import 'bitters/grid_settings';\n\n.row {\n	@include outer-container;\n\n	@include media($desktop-med) {\n		padding-right: $gutter;\n		padding-left: $gutter;\n	}\n}\n\na.btn {\n	@include linear-gradient($terracotta, $mojo);\n	border-radius: 3px;\n	color: $white;\n	height: em(50);\n	line-height: em(50);\n	font-size: em(18);\n	text-align: center;\n\n	&:hover {\n		border-bottom: none;\n		color: $white;\n		@include linear-gradient(lighten($terracotta, 5%), lighten($mojo, 5%));\n	}\n\n	&.blue {\n		@include linear-gradient($river-bed, $oxford-blue);\n\n		&:hover {\n			@include linear-gradient(lighten($river-bed, 5%), lighten($oxford-blue, 5%));\n		}\n	}\n\n	@include media($desktop-small) {\n		font-size: em(16);\n	}\n\n	@include media($mobile) {\n		font-size: em(14);\n	}\n}\n\n#main-header {\n	background-color: $white;\n	border-top: solid 3px $refreshorange;\n	padding: em(30) 0;\n	text-align: center;\n\n	@include media($mobile) {\n		height: auto;\n	}\n}\n\n#logo {\n	@include retina-image('logo', 176px 85px, $asset-pipeline: true);\n	background-size: 100%;\n	display: block;\n	height: 85px;\n	margin: 0 auto em(20);\n	overflow: hidden;\n	text-indent: -9999px;\n	width: 176px;\n}\n\n#main-nav {\n	ul {\n		li {\n			display: inline-block;\n			margin: 0 em(15);\n\n			&:after {\n				content: '–';\n				position: relative;\n				right: -18px;\n			}\n\n			&:last-child:after{\n				display: none;\n			}\n\n			a {\n				@include transition(linear all 0.2s);\n				color: $refreshblue;\n				font-size: em(14);\n				font-weight: bold;\n				text-transform: uppercase;\n			}\n\n			@include media($tablet-med) {\n				margin: 0 em(5);\n\n				&:after {\n					display: none;\n				}\n			}\n\n			@include media($tablet-small) {\n				margin: 0 em(15);\n\n				&:nth-child(4) {\n					display: none;\n				}\n			}\n\n			@include media($mobile) {\n				display: block;\n				margin-bottom: $base-line-height / 3;\n			}\n		}\n	}\n}\n\n#top {\n	background: url('../img/bg-banner.jpg') no-repeat top center $refreshblue;\n	background-size: 100%;\n	color: $white;\n	overflow: hidden;\n	position: relative;\n\n	div.circle {\n		border-radius: em(340);\n		border: solid 2px $white;\n		bottom: - em(75);\n		height: em(680);\n		opacity: 0.02;\n		position: absolute;\n		width: em(680);\n		z-index: 0;\n\n		&:before {\n			background-color: $white;\n			border-radius: em(320);\n			content: '';\n			height: em(640);\n			left: em(20);\n			position: absolute;\n			top: em(20);\n			width: em(640);\n		}\n\n		&#one {\n			left: - em(75);\n		}\n\n		&#two {\n			left: 50%;\n			margin-left: - em(320);\n		}\n\n		&#three {\n			right: - em(75);\n		}\n\n		@include media($tablet-small) {\n			display: none;\n		}\n	}\n}\n\n#banner {\n	padding: em(200) 0 em(100);\n	text-align: center;\n\n	@include media($mobile) {\n		padding: em(100) 0 em(50);\n	}\n\n	@include media($desktop-med) {\n		padding-right: $gutter;\n		padding-left: $gutter;\n	}\n\n	h1 {\n		@include span-columns(12);\n		font-size: em(48);\n\n		@include media($tablet-med) {\n			font-size: em(36);\n		}\n\n		@include media($mobile) {\n			font-size: em(24);\n		}\n	}\n\n	h2 {\n		@include span-columns(12);\n		color: $glacier;\n		font-size: em(21);\n		font-weight: normal;\n		font-family: $sans-serif;\n		margin-bottom: em(100);\n		text-transform: none;\n\n		@include media($tablet-med) {\n			font-size: em(18);\n		}\n\n		@include media($mobile) {\n			font-size: em(14);\n		}\n	}\n\n	.btn {\n		@include span-columns(3);\n\n		&#speaker {\n			@include shift(3);\n		}\n\n		&:last-child {\n			@include omega;\n		}\n\n		@include media($tablet-med) {\n			@include span-columns(4);\n\n			&#speaker {\n				@include shift(2);\n			}\n		}\n\n		@include media($tablet-small) {\n			@include span-columns(6);\n\n			&#speaker {\n				@include shift(0);\n			}\n		}\n\n		@include media($mobile) {\n			@include span-columns(8);\n			@include shift(2);\n\n			&#speaker {\n				@include shift(2);\n				margin-bottom: $base-line-height;\n			}\n		}\n	}\n}\n\n#next-event {\n	padding: em(100) 0;\n	text-align: center;\n	position: relative;\n	z-index: 100;\n\n	@include media($mobile) {\n		padding: em(50) $gutter;\n	}\n\n	h3 {\n		@include span-columns(12);\n		font-size: em(36);\n\n		@include media($mobile) {\n			font-size: em(24);\n		}\n	}\n\n	em#subheader {\n		@include span-columns(12);\n		color: $glacier;\n		font-size: em(18);\n		font-weight: normal;\n		font-style: normal;\n		font-family: $sans-serif;\n		margin-bottom: em(75);\n		text-transform: none;\n\n		@include media($mobile) {\n			font-size: em(14);\n			margin-bottom: em(50);\n		}\n	}\n\n	.btn {\n		@include span-columns(3);\n		@include shift(4.5);\n\n		@include media($tablet-med) {\n			@include span-columns(4);\n			@include shift(4);\n		}\n\n		@include media($tablet-small) {\n			@include span-columns(6);\n			@include shift(3);\n		}\n\n		@include media($mobile) {\n			@include span-columns(8);\n			@include shift(2);\n		}\n	}\n}\n\n#ticket {\n	@include retina-image('ticket', 524px 202px, $asset-pipeline: true);\n	background-position: center top;\n	background-repeat: no-repeat;\n	clear: both;\n	height: em(224);\n	text-align: left;\n	margin: 0 auto em(75);\n	width: 530px;\n\n	@include media($mobile) {\n		background: none;\n		margin-bottom: em(0);\n		width: 100%;\n	}\n\n	header,\n	section,\n	footer {\n		margin-left: 95px;\n		width: 415px;\n\n		@include media($mobile) {\n			margin-left: 0;\n			width: 100%;\n		}\n	}\n\n	strong{\n		color: rgba(0,0,0,0.5);\n		font-size: em(12);\n		text-transform: uppercase;\n\n		@include media($mobile) {\n			font-size: em(12);\n			color: $white;\n		}\n	}\n\n	header {\n		padding-top: em(15);\n		margin-bottom: $base-line-height;\n\n		h4 {\n			font-size: em(18);\n			font-family: $sans-serif;\n			font-weight: normal;\n			line-height: 1em;\n			text-transform: none;\n\n			a {\n				color: $refreshblue;\n			}\n		}\n\n		@include media($tablet-small) {\n			h4 {\n				font-size: em(16);\n			}\n		}\n\n		@include media($mobile) {\n			h4 {\n				font-size: em(14);\n\n				a {\n					color: $white;\n				}\n			}\n		}\n	}\n\n	section {\n		margin-bottom: $base-line-height;\n		overflow: hidden;\n\n		em {\n			display: block;\n			color: $refreshblue;\n			font-size: em(14);\n			font-style: normal;\n			line-height: 1em;\n		}\n\n		div:first-child {\n			@include span-columns(2 of 5);\n		}\n\n		div:nth-child(2) {\n			@include span-columns(2 of 5);\n		}\n\n		div:nth-child(3) {\n			@include span-columns(1 of 5);\n		}\n\n		@include media($mobile) {\n			em {\n				color: $white;\n				font-size: em(13);\n				line-height: 0.9em;\n			}\n		}\n	}\n\n	footer {\n		border-top: solid 3px rgba(0,0,0,0.5);\n		clear: both;\n		color: rgba(0,0,0,0.5);\n		overflow: hidden;\n		padding-right: 0;\n		padding-top: $base-line-height / 2;\n\n		#location {\n			float: left;\n			position: relative;\n			top: -2px;\n\n			i {\n				font-size: em(24);\n				position: relative;\n				vertical-align: -4px;\n				margin-right: 4px;\n			}\n\n			a {\n				font-size: em(14);\n				color: rgba(0,0,0,0.5);\n			}\n		}\n\n		.note {\n			font-size: em(12);\n			float: right;\n		}\n\n		@include media($mobile) {\n			border-color: rgba(255,255,255,0.5);\n			padding-top: $base-line-height / 3;\n\n			#location {\n				i {\n					color: $prim;\n				}\n				a {\n					font-size: em(14);\n					color: $prim;\n				}\n			}\n			.note {\n				display: none;\n			}\n		}\n	}\n}\n\n#middle {\n	background-color: $prim;\n\n	header {\n		height: em(40);\n		margin-bottom: em(100);\n		position: relative;\n		text-align: center;\n\n		hr {\n			background-color: transparent;\n			border-top: solid 1px rgba(0,0,0,0.2);\n			border-bottom: solid 1px rgba(0,0,0,0.2);\n			height: 4px;\n			position: relative;\n			top: -52px;\n			z-index: 0;\n		}\n\n		h3 {\n			background-color: $prim;\n			color: $refreshblue;\n			display: inline-block;\n			font-size: em(36);\n			padding: 0 em(5);\n			position: relative;\n			z-index: 10;\n		}\n\n		@include media($mobile) {\n			margin-bottom: em(50);\n\n			hr {\n				top: -44px;\n			}\n\n			h3 {\n				font-size: em(24);\n			}\n		}\n	}\n}\n\n#what-is-refresh {\n	padding-top: em(100);\n\n	section {\n		@include columns(2 $gutter);\n		margin-bottom: em(100);\n	}\n\n	p {\n		font-size: em(18);\n		line-height: 1.7em;\n		margin-bottom: 0;\n	}\n\n	@include media($mobile) {\n		padding-top: em(50);\n\n		section {\n			@include columns(1);\n			margin-bottom: $base-line-height;\n		}\n\n		p {\n			font-size: em(14);\n			line-height: 1.5em;\n			margin-bottom: $base-line-height;\n		}\n	}\n\n	footer {\n		@include span-columns(6);\n		@include shift(3);\n		text-align: center;\n\n		h3 {\n			color: $refreshblue;\n			font-family: $sans-serif;\n			font-size: em(21);\n			font-weight: normal;\n			text-transform: none;\n			margin-bottom: $base-line-height;\n		}\n\n		a {\n			@include span-columns(3 of 6);\n			@include omega(2n);\n\n			i {\n				position: relative;\n				margin-right: 6px;\n			}\n		}\n\n		@include media($tablet-small) {\n			@include span-columns(8);\n			@include shift(2);\n\n			a {\n				@include span-columns(4 of 8);\n			}\n		}\n\n		@include media($tablet-small) {\n			@include span-columns(12);\n			@include shift(0);\n\n			a {\n				@include span-columns(6 of 12);\n			}\n		}\n\n		@include media($mobile) {\n			a {\n				@include span-columns(8 of 12);\n				@include shift(2);\n\n				&:first-child {\n					margin-bottom: $base-line-height;\n				}\n			}\n		}\n	}\n}\n\n#upcoming-events {\n	padding: em(100) 0;\n\n	@include media($mobile) {\n		padding: em(50) 0;\n	}\n\n	@include media($desktop-med) {\n		padding-right: $gutter;\n		padding-left: $gutter;\n	}\n\n	article {\n		@include span-columns(3 of 12);\n		background-color: $white;\n		border: solid 1px $alto;\n\n		&:nth-child(4) {\n			@include omega;\n		}\n\n		div.event-image {\n			height: em(180);\n			overflow: hidden;\n			text-align: center;\n\n			img {\n				height: 100%;\n				width: 100%;\n			}\n\n			i {\n				font-size: em(96);\n				line-height: 180px;\n				color: rgba(0,0,0,0.1);\n			}\n		}\n\n		section {\n			@include clearfix;\n			min-height: em(295);\n			padding: $base-line-height;\n\n			@include media($tablet-med) {\n				min-height: em(310);\n			}\n\n			@include media($tablet-small) {\n				min-height: em(295);\n			}\n		}\n\n		h4 {\n			color: $refreshblue;\n			font-weight: normal;\n			font-size: em(16);\n			font-family: $sans-serif;\n			line-height: 1.5em;\n			margin-bottom: $base-line-height / 2;\n			text-transform: none;\n\n			@include media($tablet-med) {\n				font-size: em(14);\n			}\n		}\n\n		.location {\n			color: $light-gray;\n			display: block;\n			font-size: em(13);\n			margin-bottom: $base-line-height / 2;\n\n			i {\n				font-size: em(24);\n				position: relative;\n				vertical-align: -2px;\n				margin-right: 4px;\n			}\n\n			a {\n				color: $light-gray;\n			}\n		}\n\n		p {\n			font-size: em(14);\n			margin-bottom: $base-line-height;\n		}\n\n		.btn {\n			@include span-columns(2 of 3);\n			@include shift(.5);\n			font-size: em(14);\n			height: em(40);\n			line-height: em(40);\n		}\n\n		@include media($desktop-small) {\n			@include span-columns(4 of 12);\n\n			&:nth-child(3) {\n				@include omega;\n			}\n\n			&:nth-child(4) {\n				display: none;\n			}\n		}\n\n		@include media($tablet-small) {\n			@include span-columns(6 of 12);\n			margin-bottom: $base-line-height;\n\n			&:nth-child(2n+2) {\n				@include omega;\n			}\n\n			&:nth-child(3) {\n				display: inline-block;\n			}\n\n			&:nth-child(4) {\n				float: right;\n				display: inline-block;\n			}\n		}\n\n		@include media($mobile) {\n			@include span-columns(12 of 12);\n\n			section {\n				min-height: 0;\n			}\n\n			&:last-child {\n				margin-bottom: 0;\n			}\n		}\n	}\n}\n\n#our-sponsors {\n	background-color: $refreshblue;\n	padding: em(100) 0;\n\n	@include media($mobile) {\n		padding: em(50) 0;\n	}\n\n	header {\n		height: em(40);\n		margin-bottom: em(100);\n		position: relative;\n		text-align: center;\n\n		hr {\n			background-color: transparent;\n			border-top: solid 1px rgba(255,255,255,0.2);\n			border-bottom: solid 1px rgba(255,255,255,0.2);\n			height: 4px;\n			position: relative;\n			top: -52px;\n			z-index: 0;\n		}\n\n		h3 {\n			background-color: $refreshblue;\n			color: $white;\n			display: inline-block;\n			font-size: em(36);\n			padding: 0 em(5);\n			position: relative;\n			z-index: 10;\n		}\n\n		@include media($mobile) {\n			margin-bottom: em(50);\n\n			hr {\n				top: -44px;\n			}\n\n			h3 {\n				font-size: em(24);\n			}\n		}\n\n	}\n\n	.btn {\n		@include span-columns(4);\n		@include shift(4);\n		margin-bottom: em(100);\n\n		@include media($tablet-med) {\n			@include span-columns(6);\n			@include shift(3);\n		}\n\n		@include media($tablet-small) {\n			@include span-columns(8);\n			@include shift(2);\n		}\n\n		@include media($mobile) {\n			@include span-columns(12);\n			@include shift(0);\n			margin-bottom: em(50);\n		}\n	}\n\n	h4 {\n		@include span-columns(12);\n		color: $glacier;\n		font-size: em(21);\n		font-family: $sans-serif;\n		font-weight: normal;\n		text-transform: none;\n		text-align: center;\n\n		@include media($tablet-med) {\n			font-size: em(18);\n		}\n\n		@include media($tablet-small) {\n			font-size: em(16);\n		}\n\n		@include media($mobile) {\n			font-size: em(14);\n		}\n	}\n}\n\nul#sponsors {\n	@include span-columns(12);\n	margin-bottom: em(100);\n\n	@include media($mobile) {\n		margin-bottom: em(50);\n	}\n\n	li {\n		@include span-columns(4 of 12);\n		background-color: rgba(0,0,0,0.4);\n		height: em(220);\n		text-align: center;\n		position: relative;\n\n		@include media($mobile) {\n			@include span-columns(12 of 12);\n			margin-bottom: $base-line-height;\n		}\n\n		&:nth-child(3n+3) {\n			@include omega;\n		}\n\n		&:nth-child(4) {\n			@include shift(2);\n		}\n\n		&:nth-child(4),\n		&:nth-child(5) {\n			margin-top: $base-line-height;\n		}\n\n		a {\n			height: em(220);\n			display: block;\n\n			&:hover {\n				border-bottom: none;\n			}\n		}\n\n		span {\n			@include transition(opacity linear 0.2s);\n			color: $white;\n			font-weight: bold;\n			font-size: em(18);\n			line-height: 220px;\n			opacity: 0;\n		}\n\n		div {\n			@include transition(opacity linear 0.2s);\n			background-repeat: no-repeat;\n			background-position: center;\n			height: em(180);\n			left: 50%;\n			margin-left: - em(90);\n			margin-top: - em(90);\n			opacity: 1.0;\n			position: absolute;\n			top: 50%;\n			width: em(180);\n\n		}\n\n		#thoughtbot {\n			@include retina-image('logo_thoughtbot', 175px 175px, $asset-pipeline: true);\n\n			@include media($tablet-med) {\n				background-size: 100%;\n				margin-left: - em(60);\n				width: em(120);\n			}\n		}\n\n		#teksystems {\n			@include retina-image('logo_teksystems', 175px 175px, $asset-pipeline: true);\n\n			@include media($tablet-med) {\n				background-size: 100%;\n				margin-left: - em(60);\n				width: em(120);\n			}\n		}\n\n		#sendgrid {\n			@include retina-image('logo_sendgrid', 262px 67px, $asset-pipeline: true);\n			background-size: 100%;\n			height: em(67);\n			margin-left: - em(131);\n			margin-top: - em(33.5);\n			width: em(262);\n\n			@include media($desktop-small) {\n				background-size: 100%;\n				margin-left: - em(90);\n				width: em(180);\n			}\n\n			@include media($tablet-med) {\n				background-size: 100%;\n				margin-left: - em(70);\n				width: em(140);\n			}\n		}\n\n		#galvanize {\n			@include retina-image('logo_galvanize', 262px 62px, $asset-pipeline: true);\n			background-size: 100%;\n			height: em(62);\n			margin-left: - em(130.5);\n			margin-top: - em(31);\n			width: em(261);\n\n			@include media($desktop-small) {\n				background-size: 100%;\n				margin-left: - em(90);\n				width: em(180);\n			}\n\n			@include media($tablet-med) {\n				background-size: 100%;\n				margin-left: - em(70);\n				width: em(140);\n			}\n		}\n\n		#zenman {\n			@include retina-image('logo_zenman', 262px 36px, $asset-pipeline: true);\n			background-size: 100%;\n			height: em(36);\n			margin-left: - em(131);\n			margin-top: - em(18);\n			width: em(262);\n\n			@include media($desktop-small) {\n				background-size: 100%;\n				margin-left: - em(90);\n				width: em(180);\n			}\n\n			@include media($tablet-med) {\n				background-size: 100%;\n				margin-left: - em(70);\n				width: em(140);\n			}\n		}\n\n		#hm {\n			@include retina-image('logo_hm', 224px 122px, $asset-pipeline: true);\n			background-size: 100%;\n			height: em(122);\n			margin-left: - em(112);\n			margin-top: - em(56);\n			width: em(224);\n\n			@include media($desktop-small) {\n				background-size: 100%;\n				margin-left: - em(90);\n				width: em(180);\n			}\n\n			@include media($tablet-med) {\n				background-size: 100%;\n				margin-left: - em(70);\n				width: em(140);\n			}\n		}\n\n		&:hover {\n			div {\n				opacity: 0;\n			}\n			span {\n				opacity: 1.0;\n			}\n		}\n	}\n}\n\n#main-footer {\n	padding: em(100) 0;\n	font-size: em(14);\n	text-align: center;\n\n	strong {\n		text-transform: uppercase;\n		display: block;\n	}\n\n	@include media($mobile) {\n		font-size: em(12);\n	}\n}\n",
 			"file": "application.scss",
+			"file_size": 15969,
+			"file_write_time": 130426639510000000,
 			"settings":
 			{
-				"buffer_size": 15967,
+				"buffer_size": 15968,
 				"line_ending": "Unix"
 			}
 		}
@@ -117,6 +120,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/refreshdenver"
+	],
 	"file_history":
 	[
 		"/Users/acohen/Dropbox (Personal)/work/thoughtbot/development/find-a-realtor-rails/app/assets/stylesheets/views/_profile.css.scss",
@@ -529,15 +536,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6824,
+						"buffer_size": 6635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1264,
-								1264
+								0,
+								0
 							]
 						],
 						"settings":
@@ -649,7 +656,7 @@
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1142.0,
+						"translation.y": 347.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -667,19 +674,123 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15967,
+						"buffer_size": 15968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1,
+								1
 							]
 						],
 						"settings":
 						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -690,6 +801,11 @@
 					"stack_index": 0,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -716,12 +832,19 @@
 				0,
 				2,
 				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.33,
+			0.66,
 			1.0
 		],
 		"rows":
@@ -1153,6 +1276,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 1,
 	"settings":
 	{
 	},

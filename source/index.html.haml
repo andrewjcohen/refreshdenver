@@ -1,0 +1,145 @@
+%header#main-header
+  .row
+    #logo Refresh Denver
+    %nav#main-nav
+      %ul
+        %li
+          %a.scroll{:href => "#next-event"} Next Event
+        %li
+          %a.scroll{:href => "#what-is-refresh"} What is Refresh
+        %li
+          %a.scroll{:href => "#upcoming-events"} Upcoming Events
+        %li
+          %a.scroll{:href => "#our-sponsors"} Our Sponsors
+%section#top
+  %section#banner.row
+    %h1 We're A Community of Web Professionals
+    %h2 bringing together the best and brightest web creatives in Denver
+    %a#speaker.btn.blue{:href => "mailto:refresh-denver-organizer@googlegroups.com?subject=I would love to speak at Refresh Denver"} I want to be a speaker
+    %a#member.btn{:href => "http://www.meetup.com/refreshdenver/"} I want to be a member
+  %section#next-event.row
+    %h3 Our Next Event
+    %em#subheader Be sure to join us if you can, it will be a blast
+    %section#ticket
+      %header
+        %strong Main Event
+        %h4
+          %a{:href => "http://goo.gl/l8yHG9"}
+            Rick Griffith, Founder of Matter Studio
+      %section
+        %div
+          %strong Cost
+          %em Free
+        %div
+          %strong Date
+          %em November 12, 2014
+        %div
+          %strong Time
+          %em 6:30pm
+      %footer
+        #location
+          %i.icon-map-marker
+          %a{:href => "http://goo.gl/z2qT2M"} Galvanize
+        %span.note Limited Seats Available
+    %a#register.btn{:href => "http://goo.gl/l8yHG9"} Register for this event
+  #one.circle
+  #two.circle
+  #three.circle
+%section#middle
+  %section#what-is-refresh.row
+    %header
+      %h3 What Is Refresh
+      %hr/
+    %section
+      %p Refresh Denver is a community of designers, developers, and other internet professionals working to refresh the creative, technical, and professional culture of their trades in the Denver, CO area.
+      %p Our goal is simple: bring together the best and brightest new media professionals in the Denver metro area so that we may learn from one another. Our industry is too rich for any one person to “know it all.” That’s where we come in.
+    %footer
+      %a.btn.blue{:href => "https://twitter.com/refreshdenver"}
+        %i.icon-twitter
+        Follow our Twitter
+      %a.btn.blue{:href => "https://facebook.com/refreshdenver"}
+        %i.icon-facebook
+        Like us on Facebook
+  %section#upcoming-events.row
+    %header
+      %h3 Upcoming Events
+      %hr/
+    %section
+      %article
+        .event-image
+          %i.icon-beer
+        %section
+          %h4 Networking and Happy Hour; Speaker TBD
+          %span.location
+            %i.icon-map-marker
+            Galvanize
+          %p We're actively working on a speaker for this event. Networking and Happy Hour will be taking place.
+          %a.btn{:href => "http://www.meetup.com/refreshdenver/events/197942382/"} Register
+      %article
+        .event-image
+          %i.icon-beer
+        %section
+          %h4 Networking and Happy Hour; Speaker TBD
+          %span.location
+            %i.icon-map-marker
+            Galvanize
+          %p We're actively working on a speaker for this event. Networking and Happy Hour will be taking place.
+          %a.btn{:href => "http://www.meetup.com/refreshdenver/events/203242532/"} Register
+      %article
+        .event-image
+          %i.icon-beer
+        %section
+          %h4 Networking and Happy Hour; Speaker TBD
+          %span.location
+            %i.icon-map-marker
+            Galvanize
+          %p We're actively working on a speaker for this event. Networking and Happy Hour will be taking place.
+          %a.btn{:href => "http://www.meetup.com/refreshdenver/events/205888342/"} Register
+      %article
+        .event-image
+          %i.icon-beer
+        %section
+          %h4 Networking and Happy Hour; Speaker TBD
+          %span.location
+            %i.icon-map-marker
+            Galvanize
+          %p We're actively working on a speaker for this event. Networking and Happy Hour will be taking place.
+          %a.btn{:href => "http://www.meetup.com/refreshdenver/events/dfklqhytfbpb/"} Register
+%section#our-sponsors
+  .row
+    %header
+      %h3 Our Sponsors
+      %hr/
+    %section
+      %ul#sponsors
+        %li
+          %a{:href => "http://thoughtbot.com"}
+            %span thoughtbot
+            #thoughtbot
+        %li
+          %a{:href => "http://sendgrid.com"}
+            %span SendGrid
+            #sendgrid
+        %li
+          %a{:href => "http://galvanize.it"}
+            %span Galvanize
+            #galvanize
+        %li
+          %a{:href => "http://getharmonic.com/"}
+            %span Harmonic Media
+            #hm
+        %li
+          %a{:href => "http://zenman.com"}
+            %span Zenman
+            #zenman
+      %a.btn{:href => "mailto:refresh-denver-organizer@googlegroups.com?subject=Interested in Sponsoring Refresh Denver"} Want to sponsor Refresh Denver?
+    %h4 Thanks for checking us out. Hopefully we'll see you at the next meetup.
+%footer#main-footer
+  %strong Organized by:
+  = succeed "," do
+    %a{:href => "http://twitter.com/mikelockz"} Michael Lockwitz
+  = succeed "," do
+    %a{:href => "http://twitter.com/andrewcohen"} Andrew Cohen
+  = succeed "," do
+    %a{:href => "http://twitter.com/gesq_"} Gustavo Esquinca
+  %a{:href => "http://twitter.com/heymagruder"} Christopher Magruder
