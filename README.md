@@ -1,9 +1,11 @@
 Refresh Denver - refreshdenver.org
 =============
 
-Developed using Middleman, Bourbon, Neat, and Bitters.
+Developed using Middleman, HAML, Bourbon, Neat, and Bitters.
 
 * Clone the repo to your machine.
-* Run 'middleman' in your terminal
+* Run 'bundle' to install dependencies
+* Run 'bundle exec middleman' in your terminal
 * Preview at localhost:4567
-* 'middleman build' will compile everything to be uploaded to FTP
+* 'bundle exec middleman build' will compile everything
+* 'bundle exec middleman deploy' will deploy to github pages

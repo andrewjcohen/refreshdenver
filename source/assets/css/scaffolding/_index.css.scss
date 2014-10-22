@@ -1,4 +1,4 @@
-.row {
+.wrap {
   @include outer-container;
 
   @include media($desktop-med) {

@@ -7,7 +7,6 @@
     %meta(name='description' content='Refresh Denver is a community of designers, developers, and other internet professionals working to refresh the creative, technical, and professional culture of their trades in the Denver, CO area.')
     %meta(name='viewport' content='width=device-width,initial-scale=1')
     %link(rel='favicon' href='favicon.ico')
-
     = stylesheet_link_tag 'application'
     %link(rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css')
     %script(src='//use.typekit.net/lia4mht.js')
@@ -15,10 +14,9 @@
       try{Typekit.load();}catch(e){}
 
   %body
-
     = yield
 
-    %script(src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+    %script(src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js')
     = javascript_include_tag 'main'
 
     :javascript
