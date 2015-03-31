@@ -49,7 +49,6 @@
   .btn {
     @include span-columns(4);
     @include shift(4);
-    margin-bottom: em(100);
 
     @include media($tablet-med) {
       @include span-columns(6);
@@ -64,7 +63,6 @@
     @include media($mobile) {
       @include span-columns(12);
       @include shift(0);
-      margin-bottom: em(50);
     }
   }
 
@@ -93,7 +91,7 @@
 
 ul#sponsors {
   @include span-columns(12);
-  margin-bottom: em(100);
+  margin-bottom: em(80);
 
   @include media($mobile) {
     margin-bottom: em(50);
@@ -103,6 +101,7 @@ ul#sponsors {
     @include span-columns(4 of 12);
     background-color: rgba(0,0,0,0.4);
     height: em(220);
+    margin-bottom: $base-line-height;
     text-align: center;
     position: relative;
 
@@ -113,15 +112,6 @@ ul#sponsors {
 
     &:nth-child(3n+3) {
       @include omega;
-    }
-
-    &:nth-child(4) {
-      @include shift(2);
-    }
-
-    &:nth-child(4),
-    &:nth-child(5) {
-      margin-top: $base-line-height;
     }
 
     a {
@@ -164,37 +154,6 @@ ul#sponsors {
         background-size: 100%;
         margin-left: - em(60);
         width: em(120);
-      }
-    }
-
-    #teksystems {
-      @include retina-image('logo_teksystems', 175px 175px, $asset-pipeline: true);
-
-      @include media($tablet-med) {
-        background-size: 100%;
-        margin-left: - em(60);
-        width: em(120);
-      }
-    }
-
-    #sendgrid {
-      @include retina-image('logo_sendgrid', 262px 67px, $asset-pipeline: true);
-      background-size: 100%;
-      height: em(67);
-      margin-left: - em(131);
-      margin-top: - em(33.5);
-      width: em(262);
-
-      @include media($desktop-small) {
-        background-size: 100%;
-        margin-left: - em(90);
-        width: em(180);
-      }
-
-      @include media($tablet-med) {
-        background-size: 100%;
-        margin-left: - em(70);
-        width: em(140);
       }
     }
 

@@ -165,7 +165,7 @@
 
     section {
       @include clearfix;
-      min-height: em(295);
+      min-height: em(240);
       padding: $base-line-height;
 
       @include media($tablet-med) {
@@ -211,7 +211,7 @@
 
     p {
       font-size: em(14);
-      margin-bottom: $base-line-height;
+      margin-bottom: 0;
     }
 
     .btn {
@@ -220,6 +220,7 @@
       font-size: em(14);
       height: em(40);
       line-height: em(40);
+      margin-bottom: $base-line-height;
     }
 
     @include media($desktop-small) {
