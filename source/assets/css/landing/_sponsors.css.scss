@@ -178,6 +178,46 @@ ul#sponsors {
       }
     }
 
+    #beaconhill {
+      @include retina-image('logo_beaconhill', 249px 125px, $asset-pipeline: true);
+      height: em(125);
+      margin-left: em(-125);
+      margin-top: em(-62.5);
+      width: em(249);
+
+      @include media($desktop-small) {
+        background-size: 100%;
+        margin-left: - em(90);
+        width: em(180);
+      }
+
+      @include media($tablet-med) {
+        background-size: 100%;
+        margin-left: - em(60);
+        width: em(120);
+      }
+    }
+
+    #gunio {
+      @include retina-image('logo_gunio', 207px 176px, $asset-pipeline: true);
+      height: em(176);
+      margin-left: em(-104);
+      margin-top: em(-88);
+      width: em(207);
+
+      @include media($desktop-small) {
+        background-size: 100%;
+        margin-left: - em(90);
+        width: em(180);
+      }
+
+      @include media($tablet-med) {
+        background-size: 100%;
+        margin-left: - em(60);
+        width: em(120);
+      }
+    }
+
     #zenman {
       @include retina-image('logo_zenman', 262px 36px, $asset-pipeline: true);
       background-size: 100%;
