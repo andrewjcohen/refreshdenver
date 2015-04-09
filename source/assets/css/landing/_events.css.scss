@@ -165,16 +165,8 @@
 
     section {
       @include clearfix;
-      min-height: em(240);
+      min-height: em(215);
       padding: $base-line-height;
-
-      @include media($tablet-med) {
-        min-height: em(310);
-      }
-
-      @include media($tablet-small) {
-        min-height: em(295);
-      }
     }
 
     h4 {
