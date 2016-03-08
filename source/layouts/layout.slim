@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    meta name="description" content="Refresh Denver is a community of designers, developers, and other internet professionals working to refresh the creative, technical, and professional culture of their trades in the Denver, CO area."
+    title = "Refresh Denver – Designers &amp; Developers gathering to refresh and create a community in Denver"
+    = stylesheet_link_tag "application"
+
+  body
+    = yield
+
+    = javascript_include_tag "all"
+    = yield_content :javascript

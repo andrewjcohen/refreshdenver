@@ -1,0 +1,79 @@
+body {
+  background: #ECE9E6;
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF);
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF);
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 45em;
+  min-height: 100vh;
+}
+
+.main-content {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 $base-spacing;
+}
+
+.logo {
+  margin-bottom: $base-spacing;
+
+  svg {
+    @include size(20em auto);
+  }
+}
+
+.mission {
+  color: $refresh-navy;
+  margin-bottom: $small-spacing;
+
+  p:first-of-type {
+    font-size: 1.5em;
+  }
+}
+
+.social {
+  li {
+    display: inline;
+    margin-right: $small-spacing;
+  }
+
+  svg path {
+    fill: $refresh-navy;
+  }
+}
+
+.meetup {
+  @extend %btn;
+  margin-bottom: $base-spacing * 2;
+}
+
+.main-footer {
+  color: $refresh-navy;
+  font-size: 0.875em;
+  padding: $base-spacing * 2;
+
+  strong {
+    display: block;
+    margin-bottom: $small-spacing;
+  }
+}
+
+.organizers  li {
+  display: inline;
+  margin-right: $small-spacing;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}

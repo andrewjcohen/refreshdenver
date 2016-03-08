@@ -1,8 +1,9 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'bitters'
+gem 'slim'
+gem 'middleman', '>= 4.0.0'
+gem "middleman-autoprefixer"
+gem 'middleman-livereload'
+gem 'middleman-gh-pages'
 gem 'bourbon'
-gem 'haml'
-gem 'middleman'
-gem 'middleman-deploy'
-gem 'neat'
+gem 'bitters'

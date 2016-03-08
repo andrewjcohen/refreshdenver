@@ -1,15 +1,19 @@
-set :css_dir, 'assets/css'
-set :js_dir, 'assets/js'
-set :images_dir, 'assets/images'
-set :relative_links, true
+require 'slim'
 
-configure :build do
-  activate :minify_css
-  activate :minify_javascript
-  activate :asset_hash
-  activate :relative_assets
+set :relative_links, true
+set :css_dir, "assets/stylesheets"
+set :js_dir, "assets/javascripts"
+set :images_dir, "assets/images"
+
+activate :autoprefixer
+
+configure :development do
+  activate :livereload
 end
 
-activate :deploy do |deploy|
-  deploy.method = :git
+configure :build do
+  activate :asset_hash
+  activate :relative_assets
+  activate :minify_css
+  activate :minify_javascript
 end
